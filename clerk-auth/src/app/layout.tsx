@@ -21,10 +21,10 @@ export default function RootLayout({
           <body className={inter.className}>
             <header>
               <SignedOut>
-                <SignInButton />
+                <SignInButton className="btn" />
               </SignedOut>
               <SignedIn>
-                <UserButton />
+                <UserButton className="user" />
               </SignedIn>
             </header>
               {children}
